@@ -32,7 +32,7 @@ const Signup = () => {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button className="appButton" type="button">
+      <button onClick={collectData} className="appButton" type="button">
         Sign Up
       </button>
     </div>
